@@ -1,0 +1,49 @@
+.popupcat{
+background-color: #DAEBF2;
+width: 40vw;
+height: 350%;
+}
+
+.barra{
+    display: flex;
+    gap: 10px;
+    width: 20vw;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.barra input{
+    width: 20vw;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+
+}
+
+::placeholder{
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    color: #062068;
+}
+
+.imagens{
+    display: flex;
+    /* gap: 2px;     nao ta indo  */
+    border: red 1px solid;
+    justify-content: center;
+}
+
+.imagens img {
+    width: 20px;
+    border-radius: 50px;
+    border: #ff9933 2px solid;
+    margin: 10px 10px;
+}
+
+figcaption{
+   
+    justify-content: center;
+}
