@@ -1,7 +1,11 @@
 .popupcat{
 background-color: #DAEBF2;
-width: 40vw;
-height: 350%;
+width: 60vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 0 auto;
+border: #0099DD;
 }
 
 .barra{
@@ -31,19 +35,21 @@ height: 350%;
 
 .imagens{
     display: flex;
-    /* gap: 2px;     nao ta indo  */
-    border: red 1px solid;
     justify-content: center;
 }
-
-.imagens img {
-    width: 20px;
-    border-radius: 50px;
-    border: #ff9933 2px solid;
-    margin: 10px 10px;
+figure{
+    border: 1px solid #000;
 }
 
 figcaption{
-   
-    justify-content: center;
+    border: solid blue 1px;
+    text-align: center;
+}
+
+.imagens img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: #ff9933 2px solid;
+    margin: 10px;
 }
